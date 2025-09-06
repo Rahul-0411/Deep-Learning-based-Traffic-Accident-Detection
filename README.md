@@ -24,9 +24,9 @@ This system detects accidents in real-time from CCTV surveillance video using de
     - Send notification alert to emergency services.
 
 ---
-![YOLO Detection Example](images/1.png)
-![Accident Snapshot Example](images/2.png)
-![Accident Snapshot Example](images/3.png)
+![YOLO Detection Example](Output_images/1.png)
+![Accident Snapshot Example](Output_images/2.png)
+![Accident Snapshot Example](Output_images/3.png)
 ## 🛠️ Technologies Used
 - Python  
 - OpenCV  
