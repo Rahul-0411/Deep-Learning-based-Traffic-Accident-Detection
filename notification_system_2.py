@@ -4,10 +4,10 @@ from datetime import datetime
 import streamlit as st
 import requests
 
-account_sid = 'ACf2ee67f0df12ccaa5303147034cb518a'
-auth_token = '1e78e0aab2517fcc0b0ecb22fdbf4977'
-messaging_service_sid = 'MG15714ad7008e9d6abd29332c85b3b8e0'
-recipient_number = '+91 9022370411'
+account_sid = '**********************'
+auth_token = '**********************'
+messaging_service_sid = '*****************"
+recipient_number = '***********'
 
 client = Client(account_sid, auth_token)
 camera_locations = {
@@ -106,4 +106,5 @@ def send_alert2(camera_id, timestamp, coords):
     except Exception as e:
         st.sidebar.error(f"Failed to send notification: {e}")
     
+
     return hospital, police  # Return data for Streamlit display
